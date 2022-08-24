@@ -5,8 +5,8 @@ let elSelect = document.querySelector(".select"),
  let options=[];
     
 function addOption(){
-  pokemons.forEach((el)=>{
-    el.type.forEach((number)=>{
+  pokemons.forEach((elnum)=>{
+    elnum.type.forEach((number)=>{
       if(options.includes(number)) {
          
       }else {
